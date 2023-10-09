@@ -9,8 +9,8 @@ def equalSumPartition(arr, target):
     # for i in range(n+1):
     #     print(dp[i])
     
-    for i in range(n+1):
-        for j in range(target+1):
+    for i in range(1,n+1):
+        for j in range(1,target+1):
             if(arr[i-1] <= j):
                 dp[i][j] = dp[i-1][j-arr[i-1]] or dp[i-1][j]
             else:
