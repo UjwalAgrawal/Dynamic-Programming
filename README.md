@@ -1,1 +1,1 @@
-# Dynamic algorithm problem solutions in python
+# Dynamic algorithm problems in python
