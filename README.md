@@ -1,1 +1,1 @@
-# Dynamic algorithm problems in python
+# Dynamic programming problems in python
